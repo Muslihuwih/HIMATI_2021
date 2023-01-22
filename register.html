@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regis.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="containers">
+        <img src="bahan/Kampus-F.png" alt="">
+        <div class="cards">
+            <form action="" >
+                <h1 style="text-align: center; padding-bottom: 10px;">Form Pendaftaran</h1>
+                <table >
+                    <tr style="padding: 50px;">
+                        <td>Nama</td>
+                        <td><input type="text" id="nama" name="nama" required placeholder="Nama Lengkap" class="form-control" style="background-color: #e8e8e8; color: rgb(56, 56, 56); border: solid 2px transparent;" ></td>
+                    </tr>
+                    <tr>
+                        <td>Nomor Telepon</td>
+                        <td><input type="tel" id="phone" name="phone" required placeholder="No Telp"  class="form-control" style="background-color: #e8e8e8; color: rgb(56, 56, 56);  border: solid 2px transparent;" ></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" id="email" name="email" required placeholder="Email"  class="form-control" style="background-color: #e8e8e8; color: rgb(56, 56, 56);  border: solid 2px transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><input type="alamat" id="alamat" name="alamat" required placeholder="Tempat Tinggal"  class="form-control" style="background-color: #e8e8e8; color: rgb(56, 56, 56);  border: solid 2px transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="date" id="tanggal" name="tanggal"  required style="color: rgb(56, 56, 56); border: solid 3px transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" id="cowok" name="kelamin" value="1"><label for="cowok">Laki-Laki</label>
+                            <input type="radio" id="cewe" name="kelamin" value="2"><label for="cewwe">Perempuan</label>
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>Bidang Yang Diminati</td>
+                        <td>
+                            <select name="bidang" id="bidang" style="margin-left: 20px;">
+                                <option value="Organisasi">Bidang 1</option>
+                                <option value="Kaderisasi">Bidang 2</option>
+                                <option value="IPTEK">Bidang 3</option>
+                                <option value="Kominfo & Humas">Bidang 4</option>
+                            </select>
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>Upload Foto 4x3</td>
+                        <td>
+                            <input type="file" name="file" id="file">
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td valign="top">Alasan Bergabung dengan HIMA-TI Uhamka</td>
+                        <td><textarea name="komentar" id="komentar" cols="40" rows="5"></textarea></td>
+                    </tr>
+        
+                </table>
+
+                <button type="submit" class="btn" >Submit</button>
+        
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+
+</html>
